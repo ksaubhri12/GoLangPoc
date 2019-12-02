@@ -9,9 +9,7 @@ import (
 func main()  {
 
 	person := person_service.PostPersonService()
-	age := person.GetAge()
-	name := person.Name
-	fmt.Println(age,name)
+	fmt.Println(person)
 	person.SetName("Prashasti")
 	fmt.Println(person)
 

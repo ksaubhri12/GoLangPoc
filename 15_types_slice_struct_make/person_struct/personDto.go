@@ -12,8 +12,6 @@ func NewPerson(name string, lastName string, age string, height string) *Person 
 }
 
 
-
-
 func (p *Person) GetName() string {
 	return p.Name
 }
